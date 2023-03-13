@@ -1,0 +1,24 @@
+{%extends "template.html"%}
+{%block conteudo%}
+      <form action="/criar"method="post">
+        <fieldset>
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="categoria">Idade</label>
+            <input type="text" id="categoria" name="idade" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="console">Nota1</label>
+            <input type="text" id="console" name="nota1" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="console">Nota2</label>
+            <input type="text" id="console" name="nota2" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-primary btn-salvar">Salvar</button>
+        </fieldset>
+      </form>
+{%endblock%}
